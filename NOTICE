@@ -1,0 +1,27 @@
+ttyd-ubuntu
+===========
+
+This Docker image bundles the following third-party software. Each component
+is distributed under its own license, the full text of which is referenced
+below.
+
+-------------------------------------------------------------------------------
+ttyd
+-------------------------------------------------------------------------------
+Project:   https://github.com/tsl0922/ttyd
+License:   MIT License
+Copyright: Copyright (c) 2016 Shuanglei Tao <tsl0922@gmail.com>
+License text: https://github.com/tsl0922/ttyd/blob/main/LICENSE
+
+-------------------------------------------------------------------------------
+Ubuntu base image
+-------------------------------------------------------------------------------
+Project:   https://hub.docker.com/_/ubuntu
+Publisher: Canonical Ltd.
+License:   The Ubuntu base image contains software from many upstream sources,
+           each under its own license. Per-package copyright and license
+           information is included inside the image at
+           /usr/share/doc/<package>/copyright.
+References:
+  - https://ubuntu.com/legal/intellectual-property-policy
+  - https://www.ubuntu.com/licensing
