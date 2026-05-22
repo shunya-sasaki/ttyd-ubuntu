@@ -1,7 +1,7 @@
-ARG TTYD_VERSION
-ARG UBUNTU_VERSION
 
 FROM ubuntu:${UBUNTU_VERSION}
+ARG TTYD_VERSION
+ARG UBUNTU_VERSION
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ttyd=${TTYD_VERSION} \

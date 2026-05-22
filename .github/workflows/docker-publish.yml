@@ -30,7 +30,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - ttyd_version: 1.7.7
+          - ttyd_version: 1.7.4
             ubuntu_version: noble
           - ttyd_version: 1.7.7
             ubuntu_version: resolute
